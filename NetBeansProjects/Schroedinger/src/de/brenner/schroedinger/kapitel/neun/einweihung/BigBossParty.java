@@ -25,9 +25,10 @@ public class BigBossParty implements Party{
     @Override
     public void teilnehmen(Person person) throws NichtEingeladenerTeilnehmerException {
         if(!person.getArbeitetBei().equals(this.getLocation())){
-            throw new NichtEingeladenerTeilnehmerException();
+            throw new NichtEingeladenerTeilnehmerException(person.getName());
         }else if(person.getNettoGehalt() < 40000){
-            throw new NichtReichGenugException();
+            throw new NichtReichGenugException(person.getName());
+            
         }else{
             // person reinlassen
         }

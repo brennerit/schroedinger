@@ -12,9 +12,11 @@ package de.brenner.schroedinger.kapitel.neun.einweihung;
 public class Person {
     private Firma arbeitetBei;
     private int nettoGehalt;
+    private String name;
     
-    public Person(Firma arbeitetBei, int nettoGehalt){
+    public Person(Firma arbeitetBei, int nettoGehalt, String name){
         this.arbeitetBei = arbeitetBei;
+        this.name = name;
         this.nettoGehalt = nettoGehalt;
     }
     
@@ -24,5 +26,9 @@ public class Person {
 
     public int getNettoGehalt() {
         return this.nettoGehalt;
+    }
+    
+    public String getName(){
+        return this.name;
     }
 }

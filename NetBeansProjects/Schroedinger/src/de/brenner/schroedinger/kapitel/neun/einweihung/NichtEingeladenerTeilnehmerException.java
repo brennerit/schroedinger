@@ -11,11 +11,19 @@ package de.brenner.schroedinger.kapitel.neun.einweihung;
  */
 public class NichtEingeladenerTeilnehmerException extends Exception{
     
-    public NichtEingeladenerTeilnehmerException(){
+    private String person;
+    
+    public NichtEingeladenerTeilnehmerException(String person){
         super("Teilnehmer nicht eingeladen");
+        this.person = person;
     }
     
-    public NichtEingeladenerTeilnehmerException(String exceptionMessage){
+    public NichtEingeladenerTeilnehmerException(String exceptionMessage, String person){
         super(exceptionMessage);
+        this.person = person;
+    }
+    
+    public String getPerson(){
+        return this.person;
     }
 }

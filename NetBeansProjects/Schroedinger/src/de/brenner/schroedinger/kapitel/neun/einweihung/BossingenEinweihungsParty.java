@@ -21,7 +21,7 @@ public class BossingenEinweihungsParty implements Party{
     @Override
     public void teilnehmen(Person person) throws NichtEingeladenerTeilnehmerException {
         if(!person.getArbeitetBei().equals(this.getLocation())){
-            throw new NichtEingeladenerTeilnehmerException();
+            throw new NichtEingeladenerTeilnehmerException(person.getName());
         }
     }
 

@@ -11,8 +11,8 @@ package de.brenner.schroedinger.kapitel.neun.einweihung;
  */
 public class NichtReichGenugException extends NichtEingeladenerTeilnehmerException{
 
-    public NichtReichGenugException() {
-        super("Teilnehmer nicht reich genug");
+    public NichtReichGenugException(String person) {
+        super("Teilnehmer nicht reich genug",person);
     }
     
     
