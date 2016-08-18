@@ -9,10 +9,15 @@ package de.brenner.schroedinger.kapitel_zehn.hundevskatzen;
  *
  * @author jonat
  */
-public class Katze extends Tier {
+public class Tier {
+    private String name;
     
-    public Katze(String name) {
-        super(name);
+    public Tier(String name){
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
     }
     
 }

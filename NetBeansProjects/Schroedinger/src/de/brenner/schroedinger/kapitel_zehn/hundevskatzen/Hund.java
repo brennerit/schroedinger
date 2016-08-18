@@ -9,6 +9,10 @@ package de.brenner.schroedinger.kapitel_zehn.hundevskatzen;
  *
  * @author jonat
  */
-public class Hund {
+public class Hund extends Tier{
+    
+    public Hund(String name) {
+        super(name);
+    }
     
 }

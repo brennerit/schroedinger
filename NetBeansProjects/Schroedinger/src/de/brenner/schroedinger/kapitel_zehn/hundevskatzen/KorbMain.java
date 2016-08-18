@@ -14,9 +14,9 @@ public class KorbMain {
     public static void main(String []args){
         Korb<Hund> hundekorb = new Korb<>();
         Korb<Katze> katzenkorb = new Korb<>();
-        hundekorb.setBewohner(new Hund());
+        hundekorb.setBewohner(new Hund("wurf"));
         Hund hundAusKorb = hundekorb.getBewohner();
-        katzenkorb.setBewohner(new Katze());
+        katzenkorb.setBewohner(new Katze("maunz"));
         Katze katzeAusKorb = katzenkorb.getBewohner();
     }
 }
