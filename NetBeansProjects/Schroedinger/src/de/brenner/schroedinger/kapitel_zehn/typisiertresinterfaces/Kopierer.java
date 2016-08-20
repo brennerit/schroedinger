@@ -6,6 +6,7 @@
 package de.brenner.schroedinger.kapitel_zehn.typisiertresinterfaces;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 /**
@@ -21,16 +22,17 @@ public class Kopierer<E> {
         }
     }
     
+    
     public static void main(String []args){
         List<Buch> buecher = new ArrayList<>();
         List<Buch> buecherKopien = new ArrayList<>();
-        Kopierer<Buch> buchKopierer = new Kopierer<>();
-        buchKopierer.kopieren(buecher,buecherKopien);
+        KopiererMitMethode kopierer = new KopiererMitMethode();
+        kopierer.kopieren(buecher,buecherKopien);
         
         List<CD> cds = new ArrayList<>();
         List<CD> cdsKopien = new ArrayList<>();
         Kopierer<CD> cdKopierer = new Kopierer<>();
-        cdKopierer.kopieren(cds, cdsKopien);
+        kopierer.kopieren(cds, cdsKopien);
         
     }
 }
