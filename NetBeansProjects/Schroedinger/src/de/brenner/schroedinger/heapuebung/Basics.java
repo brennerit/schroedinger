@@ -13,6 +13,6 @@ public class Basics {
        public static void main(String [] args){
            int nenner = 2;
            int zaehler = 20;
-           System.out.printf(format, args);
+           System.out.printf(zaehler, args);
        }
 }

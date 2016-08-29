@@ -13,4 +13,6 @@ import java.io.File;
  */
 public interface KundenDatenKonvertierer {
     void konvertiereKundendaten(File quelle, File ziel);
+    void konvertiereKundendatenInVerzeichnis(File quellVerzeichnis, File zielVerzeichnis);
+    
 }
