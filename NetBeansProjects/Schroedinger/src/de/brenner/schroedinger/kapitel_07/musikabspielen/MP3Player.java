@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package de.brenner.schroedinger.kapitel_sieben.musikabspielen;
+package de.brenner.schroedinger.kapitel_07.musikabspielen;
 
-import de.brenner.schroedinger.kapitel_sieben.musikabspielen.DigitalesMusikAbspielGeraet;
+import de.brenner.schroedinger.kapitel_07.musikabspielen.DigitalesMusikAbspielGeraet;
 
 /**
  *

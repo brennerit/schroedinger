@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package de.brenner.schroedinger.kapitel_zehn.typisiertresinterfaces;
+package de.brenner.schroedinger.kapitel_10.typisiertresinterfaces;
 
-import de.brenner.schroedinger.kapitel_acht.schuhe.SchuhPaar;
+import de.brenner.schroedinger.kapitel_08.schuhe.SchuhPaar;
 
 /**
  *

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package de.brenner.schroedinger.kapitel_elf.speichernvonobjekten;
+package de.brenner.schroedinger.kapitel_11.speichernvonobjekten;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;

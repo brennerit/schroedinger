@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package de.brenner.schroedinger.kapitel.neun.exceptions.resourcenhandling;
+package de.brenner.schroedinger.kapitel_09.exceptions.resourcenhandling;
 
 import java.io.BufferedReader;
 import java.io.File;

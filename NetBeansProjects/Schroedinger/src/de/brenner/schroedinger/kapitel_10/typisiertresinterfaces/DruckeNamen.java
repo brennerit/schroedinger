@@ -3,13 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package de.brenner.schroedinger.kapitel_zehn.typisiertresinterfaces;
+package de.brenner.schroedinger.kapitel_10.typisiertresinterfaces;
 
-import de.brenner.schroedinger.kapitel_zehn.hundevskatzen.Hund;
-import de.brenner.schroedinger.kapitel_zehn.hundevskatzen.Katze;
-import de.brenner.schroedinger.kapitel_zehn.hundevskatzen.Tier;
 import java.util.ArrayList;
 import java.util.List;
+
+import de.brenner.schroedinger.kapitel_10.hundevskatzen.Hund;
+import de.brenner.schroedinger.kapitel_10.hundevskatzen.Katze;
+import de.brenner.schroedinger.kapitel_10.hundevskatzen.Tier;
 
 /**
  *

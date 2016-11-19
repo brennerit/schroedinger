@@ -3,11 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package de.brenner.schroedinger.kapitel.neun.logger;
+package de.brenner.schroedinger.kapitel_09.logger;
 
-import de.brenner.schroedinger.kapitel.neun.einweihung.BigBossParty;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+
+import de.brenner.schroedinger.kapitel_09.einweihung.BigBossParty;
 
 /**
  *

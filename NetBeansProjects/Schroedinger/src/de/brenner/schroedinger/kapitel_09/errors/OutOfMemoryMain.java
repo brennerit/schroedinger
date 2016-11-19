@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package de.brenner.schroedinger.kapitel.neun.errors;
+package de.brenner.schroedinger.kapitel_09.errors;
 
 import java.util.List;
 import java.util.ArrayList;
