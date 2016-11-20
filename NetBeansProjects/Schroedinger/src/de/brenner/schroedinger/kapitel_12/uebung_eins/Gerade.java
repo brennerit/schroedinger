@@ -6,6 +6,7 @@ public class Gerade implements Runnable {
 		for(int zahl = 0; zahl <= 100; zahl++){
 			if(zahl%2==0){
 				System.out.println("Zahl Gerade:" + zahl);
+				
 			}
 		}
 	}
